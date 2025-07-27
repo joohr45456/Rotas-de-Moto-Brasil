@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Serra do Corvo Branco",
+        "descricaoCurta": "Estrada impressionante esculpida na rocha, com curvas fechadas, paredões verticais e vistas de tirar o fôlego em Santa Catarina.",
+        "descricaoDetalhada": "A Serra do Corvo Branco é uma das estradas mais icônicas de Santa Catarina e do Brasil. Localizada entre os municípios de Urubici e Grão-Pará, ela ficou famosa por seu corte duplo na rocha — o maior do Brasil — e por sua sequência de curvas acentuadas em trechos de grande altitude. Embora parte da estrada tenha sido asfaltada, ainda há trechos de terra e cascalho, o que exige atenção redobrada. A rota proporciona paisagens espetaculares da serra catarinense, sendo um destino obrigatório para aventureiros sobre duas rodas.",
+        "imagens": [
+          "serraCorvoBranco1.jpg",
+          "serraCorvoBranco2.jpg",
+          "serraCorvoBranco3.jpg",
+          "serraCorvoBranco4.jpg"
+        ],
+        "estado": "Santa Catarina",
+        "pontoInicial": "Grão-Pará (SC)",
+        "pontoFinal": "Urubici (SC)",
+        "distancia": "Aproximadamente 57 km",
+        "piso": "Asfalto e trechos de terra",
+        "dificuldade": "Moderada",
+        "idealPara": "Motociclistas, turismo de aventura, entusiastas de montanha",
+        "linkFonte": "https://guia.melhoresdestinos.com.br/serra-do-corvo-branco-189-1490-l.html"
+      }
+      
+]  

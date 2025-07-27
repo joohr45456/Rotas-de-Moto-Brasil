@@ -1,0 +1,144 @@
+/* ====== RESET BÁSICO ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ====== BASE ====== */
+body {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #eae7dc;
+    color: #222;
+}
+
+/* ====== HEADER FIXO ====== */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: #eaeaea;
+    transform: scale(1.05);
+}
+
+/* ====== CONTAINER GERAL DA PÁGINA SAIBA MAIS ====== */
+.pagina-saiba-mais {
+    max-width: 900px;
+    margin: 120px auto 50px; /* Compensa header fixo */
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+/* ====== TÍTULOS ====== */
+.pagina-saiba-mais h1 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #111;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.saiba-mais-bloco h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+/* ====== BLOCOS DE DICAS ====== */
+.saiba-mais-bloco {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: #222;
+}
+
+.saiba-mais-bloco:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Alterna lado da imagem nos blocos pares */
+.saiba-mais-bloco:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* IMAGEM DAS DICAS */
+.saiba-mais-bloco img {
+    width: 300px;
+    max-width: 40vw;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+/* CONTEÚDO DO TEXTO DENTRO DOS BLOCOS */
+.saiba-mais-bloco .conteudo {
+    flex: 1;
+}
+
+/* LISTAS DE TÓPICOS */
+.saiba-mais-bloco ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* ====== RODAPÉ ====== */
+footer {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    box-shadow: 0 -2px 10px black;
+    font-family: sans-serif;
+}
+
+/* ====== RESPONSIVIDADE ====== */
+@media (max-width: 720px) {
+    .saiba-mais-bloco {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .saiba-mais-bloco img {
+        max-width: 90vw;
+        margin-bottom: 15px;
+    }
+}
