@@ -12,9 +12,8 @@ Este é um site desenvolvido com o objetivo de reunir e compartilhar rotas perso
 ## 📌 Tecnologias Utilizadas
 
 - **HTML5**  
-- **CSS3** (com layout flexível, estilo claro e sombras suaves)
-- **JavaScript** (caso haja interatividade — edite aqui conforme o projeto)
-- **[opcional] Frameworks/libraries usados (ex: Bootstrap, React, etc)**
+- **CSS3** 
+- **JavaScript** 
 
 ## 👨‍💻 Autor
 
