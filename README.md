@@ -21,6 +21,7 @@ Este é um site desenvolvido com o objetivo de reunir e compartilhar rotas perso
 - Estudante do Ensino Médio | Entusiasta por tecnologia, rotas e design.
 
 📝 Licença
+
 Este projeto está licenciado sob a MIT License — sinta-se livre para usar, modificar e compartilhar com os devidos créditos.
 
 -> Note que há páginas sem imagens, este site foi feito apenas como aprendizado
