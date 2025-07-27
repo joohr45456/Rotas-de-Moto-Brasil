@@ -21,15 +21,6 @@ Este é um site desenvolvido com o objetivo de reunir e compartilhar rotas perso
 - João Pedro de Oliveira Moraes  
 - Estudante do Ensino Médio | Entusiasta por tecnologia, rotas e design.
 
-## 📂 Estrutura do Projeto
-
-📁 rotas-de-motos-brasil/
-├── index.html
-├── style.css
-├── scripts.js (se houver)
-├── /imagens
-└── README.md
-
 📝 Licença
 Este projeto está licenciado sob a MIT License — sinta-se livre para usar, modificar e compartilhar com os devidos créditos.
 
